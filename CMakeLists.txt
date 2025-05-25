@@ -15,6 +15,7 @@ enable_testing()
 option(BUILD_TESTS "Build tests" ON)
 
 add_subdirectory(src)
+link_directories(src)
 
 if (BUILD_TESTS)
     add_subdirectory(tests)
