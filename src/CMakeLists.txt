@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.31)
 
-project(sources)
+project(src)
 
 add_executable(app
         main.cpp
@@ -11,4 +11,4 @@ add_executable(app
         adapter/BookAdapter.h
 )
 
-target_link_libraries(app PRIVATE sources)
+target_link_libraries(app PRIVATE src)
